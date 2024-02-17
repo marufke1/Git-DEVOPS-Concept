@@ -9,3 +9,12 @@ group-id   name   age   gender   commited-date
 002       Kathie  28   Female    2024/02/15
 003       Mark    35    Male     2024/02/16
 
+#####################
+# new code has been comitted by other developer
+# information about personal information about different developers!!
+
+Developer-name   email                 mobile       office-branch
+John            john 123@gmail.com     647-121-000  Remote
+Kathie         kathies 001@gmail.com   519-982-100  Remote
+Mark           mark 445@gmail.com      623-001-591  Remote
+
