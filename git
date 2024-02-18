@@ -9,3 +9,14 @@ group-id   name   age   gender   commited-date
 002       Kathie  28   Female    2024/02/15
 003       Mark    35    Male     2024/02/16
 
+
+###############
+### making some changes of the code from new branc that is branch =1!!!
+### info about project has been commited by which developer
+
+
+Develope-name  project-name  commited-date
+John              A          2024/01/12
+Kathie            B          2024/01/21
+Mark              C          2024/01/30
+
