@@ -10,10 +10,12 @@ together seamlessly, tracking changes, merging contributions, and maintaining a 
 **
 In a centralized version control system, developers commit and update code to a central repository, such as a remote server, folder, or storage location. This approach offers certain advantages and disadvantages:
 
-**Advantages**:
+**Advantages** :
+
 Code Accessibility: All developers can easily access and track the code since it is stored in a central repository.
 
-**Disadvantages**:
+**Disadvantages** :
+
  Internet Dependency: An active internet connection is required for developers to access the code from the central repository. Without internet access, developers cannot retrieve 
  or update the code.
 
