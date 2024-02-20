@@ -137,25 +137,25 @@ Git reset command allows to get back the code from staging area to working direc
 Git revert command allows to undo an existing commit but it is not deleting any commit rather git revert creates a new commit with included 
 files reverted to their previous state.
 
-**git revert <commit-id>** = allows to revert the content one step back of the code.
+**git revert commit-id** = allows to revert the content one step back of the code.
 
 
 **GIT CLONE:**
 
 Git clone command is going to allow to make a copy of the repository from central repo to local repo.
 
-**git clone <github-url>** = to make a copy of any particular repo from git hub to our local repo
+**git clone github-url** = to make a copy of any particular repo from git hub to our local repo
 
 
 **GIT TAG:**
 
 Git tag commands allows to identify any specific commit from the loca repo.
 
-**git tag -a <tag-name> -m "this is very important commit" <commit-id>** = to create a tag for any specific commit.
+**git tag -a tag-name -m "this is very important commit" commit-id** = to create a tag for any specific commit.
 
 **git tag** = shows all the tags in the local repo.
 
-**git tag -d <commit-id> = delete any particular tag.
+**git tag -d commit-id = delete any particular tag.
 
 
 
