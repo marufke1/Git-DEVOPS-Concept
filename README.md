@@ -19,6 +19,7 @@ together seamlessly, tracking changes, merging contributions, and maintaining a 
  **Lack of High Availability:** Since the code is solely stored in a central repository, any issues or downtime with the central repository can prevent developers from accessing the code, leading to disruptions in the development process.
 
  Overall, while centralized version control systems offer ease of access and collaboration among developers, they are susceptible to internet dependency and potential disruptions due to central repository issues.
+ 
 
 **Distributed version control system**:
 
@@ -31,6 +32,7 @@ A distributed version control system (DVCS) empowers developers to seamlessly co
 **Versioning Capabilities:** DVCS automatically creates distinct versions of code upon each commit. Deleting a version does not affect other versions, providing a robust versioning mechanism for project history and rollback.
 
 **GitHub Integration:** Through push/pull operations, developers synchronize code with central repository like Git-hub. This facilitates collaboration, enabling other developers to track changes and contribute to the project effectively.
+
 
 
 **Different Git stages:**
