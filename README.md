@@ -6,7 +6,7 @@ together seamlessly, tracking changes, merging contributions, and maintaining a 
 
 **TYPES OF VERSION CONTROL SYSTEMS:** There are two main types of version control systems: centralized version control systems and distributed version control systems.
 
-**Centralized Version Control System (CVCS):** In a centralized version control system, developers commit and update code to a central repository, such as a remote server, folder, or storage location. This approach offers certain advantages and disadvantages:
+**CENTRALIZED VERSION CONTROL SYSTEM (CVCS):** In a centralized version control system, developers commit and update code to a central repository, such as a remote server, folder, or storage location. This approach offers certain advantages and disadvantages:
 
 **Advantages**:
 
@@ -21,7 +21,7 @@ together seamlessly, tracking changes, merging contributions, and maintaining a 
  Overall, while centralized version control systems offer ease of access and collaboration among developers, they are susceptible to internet dependency and potential disruptions due to central repository issues.
  
 
-**Distributed version control system**:
+**DISTRIBUTED VERSION CONTROL SYSTEM**:
 
 A distributed version control system (DVCS) empowers developers to seamlessly commit, update, push, and pull code between local repositories and central repositories like GitHub. The advantages of using a DVCS are manifold.
 
