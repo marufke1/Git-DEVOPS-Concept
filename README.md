@@ -52,22 +52,37 @@ Git has four main stages in its version control workflow:
 After lauching the EC2 machine, need to run the sudo su = super user command that allows to get all the permission to perform the entire process.
 
 **Step 1**:
+
 **updating the machine** = **yum update -y** - allows to install any new packages without having any issues.
+
 **installing git** = **yum install git -y** - allows to install git on the linux machine.
+
 **git -- versions** = shows the current version of git is installed on the system.
+
 **Which git** = shows the location where git is installed. 
+
 **git config --global user.name "Maruf"** = allows to track the code has been wriiten by specfic developer -Maruf
+
 **git config --global user.email "xxx"**
 
 **Step 2**:
+
 First of all, create a directory by follwing command = **mkdir Devops**
+
 Get inside of the deirectory = **cd Devops/** and varify the current location using = **Pwd** command
-Run = **git init** command allows to convert the directory into a local repository where we commit the code.
+
+Run = **git init** command allows to convert the directory into a local repository where we commit the code
+
 Create a file inside of the directory by follwing command = **vi git file.txt** allows to create a file and also can put the content/code at a same time.
+
 **git status** = shows the untrack/track/file is available in the working directory or after commiting the code the working directory is clean
+
 **git add .** = After writting the code we can frowrd it from working directoty to staging area means -code is ready for commit.
+
 **git commit-m "1st commit"** = Allows to commit the code into a local repo by default master branch.
+
 **git log** = shows the history of the codes have been already commited like- user info, date, commit id etc
+
 **git --oneline** = shows all the commit id one by one.
 
 
