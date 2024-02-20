@@ -64,7 +64,7 @@ After lauching the EC2 machine, need to run the sudo su = super user command tha
 
 **Which git** = shows the location where git is installed. 
 
-**git config --global user.name "Maruf"** = allows to track the code has been wriiten by specfic developer -Maruf
+**git config --global user.name "Maruf"** = allows to track the code has been written by specfic developer -Maruf
 
 **git config --global user.email "xxx"**
 
@@ -88,7 +88,7 @@ Create a file inside of the directory by follwing command = **vi git file.txt** 
 
 **git --oneline** = shows all the commit id one by one.
 
-**git show <commit-id>** = shows the code.
+**git show commit-id** = shows the code.
 
 **STEP 3**:
 
@@ -96,7 +96,7 @@ Forward the code from local repo to central repo - Github.
 
 Go to the setting under developer setting and generating access token to acces the central repo from local repository.
 
-**git remote add origin <git-url>** = allows to establish a connection between local repo and central repo
+**git remote add origin git-url** = allows to establish a connection between local repo and central repo
 
 **git push origin master** = push the code from local repo to central repo
 
