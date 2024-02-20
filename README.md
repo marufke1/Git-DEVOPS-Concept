@@ -155,7 +155,22 @@ Git tag commands allows to identify any specific commit from the loca repo.
 
 **git tag** = shows all the tags in the local repo.
 
-**git tag -d commit-id = delete any particular tag.
+**git tag -d commit-id** = delete any particular tag.
+
+
+**GIT STASH:**
+
+Git stash command allows to move the code temporarily from working directy to stashing area.
+
+**git stash** = move the code from working dir to stashing area.
+
+**git stash list** = shows all the code are stored into a stashing area.
+
+**git stash apply git@{0}** = allows to get the code back from stashing area to working directore again
+
+**git status** = finally varify the process.
+
+
 
 
 
