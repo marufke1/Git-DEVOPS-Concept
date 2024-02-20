@@ -85,6 +85,24 @@ Create a file inside of the directory by follwing command = **vi git file.txt** 
 
 **git --oneline** = shows all the commit id one by one.
 
+**git show <commit-id>** = shows the code.
+
+**Step 3**:
+
+Forward the code from local repo to central repo - Github.
+
+Go to the setting under developer setting and generating access token to acces the central repo from local repository.
+
+**git remote add origin <git-url>** = allows to establish a connection between local repo and central repo
+**git push origin master** = push the code from local repo to central repo
+**git pull origin master** = pull the code from central repo to local repo
+user name = "github account"
+password = "Access token"
+
+
+
+
+
 
 
 
