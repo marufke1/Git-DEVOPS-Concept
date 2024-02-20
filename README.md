@@ -48,10 +48,10 @@ Git has four main stages in its version control workflow:
 
 **Git installation process and important commands:** Git is an open souce software that allows to install on any machines like -Windows, Linux and Mac operating system.
 
-**I am going to discuss the installion process on linux machine of AWS EC2.** 
+**I am going to discuss the installation process on linux machine of AWS EC2.** 
 After lauching the EC2 machine, need to run the sudo su = super user command that allows to get all the permission to perform the entire process.
 
-**Step 1**:
+**STEP 1**:
 
 **updating the machine** = **yum update -y** - allows to install any new packages without having any issues.
 
@@ -65,7 +65,7 @@ After lauching the EC2 machine, need to run the sudo su = super user command tha
 
 **git config --global user.email "xxx"**
 
-**Step 2**:
+**STEP 2**:
 
 First of all, create a directory by follwing command = **mkdir Devops**
 
@@ -87,7 +87,7 @@ Create a file inside of the directory by follwing command = **vi git file.txt** 
 
 **git show <commit-id>** = shows the code.
 
-**Step 3**:
+**STEP 3**:
 
 Forward the code from local repo to central repo - Github.
 
@@ -103,10 +103,10 @@ user name = "github account"
 
 password = "Access token"
 
-**Other important commands**:
+**OTHER IMPORTANT COMMANDS**:
 
 
-**Git Branch:**
+**GIT BRANCH:**
 
 Git branch is a very important concept. When we commit any code into a local repository that creates master branch by default but we also can create new branch as well that allows to help developer to make any changes or updating the code without impacting the main code from master branch. In the future, if we satisfy the new changes then merge the new branch with master other wise we also can delete the new branch it's not going to affect the code of master branch. when we create a new branch from master then all the codes are automatically copied to the new branch but any updating code from the new branch is not going to be reflected to the master or other branch until we merge it.
 
@@ -121,7 +121,7 @@ Git branch is a very important concept. When we commit any code into a local rep
 **git merge branch1** = allows to merge the new branch with master
 
 
-**Git Reset:**
+**GIT RESET:**
 
 Git reset command allows to get back the code from staging area to working directory again if we need to make any changes of the code. 
 
@@ -132,7 +132,7 @@ Git reset command allows to get back the code from staging area to working direc
 **git status** = finally we can varify the untrack file to modify it.
 
 
-**Git revert:**
+**GIT REVERT:**
 
 Git revert command allows to undo an existing commit but it is not deleting any commit rather git revert creates a new commit with included 
 files reverted to their previous state.
@@ -140,7 +140,7 @@ files reverted to their previous state.
 **git revert <commit-id>** = allows to revert the content one step back of the code.
 
 
-**Git clone:**
+**GIT CLONE:**
 
 Git clone command is going to allow to make a copy of the repository from central repo to local repo.
 
