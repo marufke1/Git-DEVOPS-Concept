@@ -119,6 +119,20 @@ Git branch is a very important concept. When we commit any code into a local rep
 
 **git merge branch1** = allows to merge the new branch with master
 
+**Git Reset:**
+
+Git reset command allows to get back the code from staging area to working directory again if we need to make any changes of the code.
+
+**git reset file1.txt** = aloows to info about the file we want to reset it
+
+**git reset .** = move the file from stagin area to working directory again to fix the code
+
+**git status** = finally we can varify the untrack file to modify it.
+
+
+
+
+
 
 
 
