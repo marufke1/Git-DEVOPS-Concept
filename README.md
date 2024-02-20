@@ -4,6 +4,9 @@
 It allows developers to efficiently collect, maintain, and manage different versions of code in a decentralized manner. Through Git, teams can work 
 together seamlessly, tracking changes, merging contributions, and maintaining a centralized repository of their project's history."
 
+**WHAT IS GITHUB:** Git hub is a remote central repositiory that allows to store, maintain, and managing the source code with different versions 
+ into a centralized location.
+
 **TYPES OF VERSION CONTROL SYSTEMS:** There are two main types of version control systems: centralized version control systems and distributed version control systems.
 
 **CENTRALIZED VERSION CONTROL SYSTEM (CVCS):** In a centralized version control system, developers commit and update code to a central repository, such as a remote server, folder, or storage location. This approach offers certain advantages and disadvantages:
