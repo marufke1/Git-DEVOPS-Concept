@@ -35,7 +35,7 @@ A distributed version control system (DVCS) empowers developers to seamlessly co
 
 
 
-**Different Git stages:**
+**DIFFERENT GIT STAGES:**
 Git has four main stages in its version control workflow:
 
 **Working Directory:** This is where you modify, add, or delete files in your project. These changes are not yet tracked by Git.
@@ -46,7 +46,7 @@ Git has four main stages in its version control workflow:
 
 **Remote Repository:** This is the centralized repository hosted on a remote server, like GitHub or GitLab. You can push your local commits to the remote repository using git push, and pull changes from the remote repository to your local repository using git pull. This stage enables collaboration with others and serves as a backup of your project.
 
-**Git installation process and important commands:** Git is an open souce software that allows to install on any machines like -Windows, Linux and Mac operating system.
+**Git INSTALLATION PROCESS AND IMPORTANT COMMANDS:** Git is an open souce software that allows to install on any machines like -Windows, Linux and Mac operating system.
 
 **I am going to discuss the installation process on linux machine of AWS EC2.** 
 After lauching the EC2 machine, need to run the sudo su = super user command that allows to get all the permission to perform the entire process.
@@ -145,6 +145,20 @@ files reverted to their previous state.
 Git clone command is going to allow to make a copy of the repository from central repo to local repo.
 
 **git clone <github-url>** = to make a copy of any particular repo from git hub to our local repo
+
+
+**GIT TAG:**
+
+Git tag commands allows to identify any specific commit from the loca repo.
+
+**git tag -a <tag-name> -m "this is very important commit" <commit-id>** = to create a tag for any specific commit.
+
+**git tag** = shows all the tags in the local repo.
+
+**git tag -d <commit-id> = delete any particular tag.
+
+
+
 
 
 
