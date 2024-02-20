@@ -105,7 +105,8 @@ password = "Access token"
 
 **Other important commands**:
 
-**Git Branch**
+
+**Git Branch:**
 
 Git branch is a very important concept. When we commit any code into a local repository that creates master branch by default but we also can create new branch as well that allows to help developer to make any changes or updating the code without impacting the main code from master branch. In the future, if we satisfy the new changes then merge the new branch with master other wise we also can delete the new branch it's not going to affect the code of master branch. when we create a new branch from master then all the codes are automatically copied to the new branch but any updating code from the new branch is not going to be reflected to the master or other branch until we merge it.
 
@@ -118,6 +119,7 @@ Git branch is a very important concept. When we commit any code into a local rep
 **git branch -d branch1** = delete the branch1
 
 **git merge branch1** = allows to merge the new branch with master
+
 
 **Git Reset:**
 
