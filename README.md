@@ -33,3 +33,20 @@ A distributed version control system (DVCS) empowers developers to seamlessly co
 **GitHub Integration:** Through push/pull operations, developers synchronize code with central repository like Git-hub. This facilitates collaboration, enabling other developers to track changes and contribute to the project effectively.
 
 
+**Different Git stages:**
+Git has four main stages in its version control workflow:
+
+**Working Directory:** This is where you modify, add, or delete files in your project. These changes are not yet tracked by Git.
+
+**Staging Area (Index):** After making changes in the working directory, you can add them to the staging area using the git add command. Files in this stage are marked as ready to be committed.
+
+**Local Repository:** Once files are staged, you commit them to the local repository using git commit. This creates a snapshot of the project at that moment in time. Commits in the local repository are only visible on your local machine.
+
+**Remote Repository:** This is the centralized repository hosted on a remote server, like GitHub or GitLab. You can push your local commits to the remote repository using git push, and pull changes from the remote repository to your local repository using git pull. This stage enables collaboration with others and serves as a backup of your project.
+
+
+
+
+
+
+
