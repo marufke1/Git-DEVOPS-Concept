@@ -123,13 +123,31 @@ Git branch is a very important concept. When we commit any code into a local rep
 
 **Git Reset:**
 
-Git reset command allows to get back the code from staging area to working directory again if we need to make any changes of the code.
+Git reset command allows to get back the code from staging area to working directory again if we need to make any changes of the code. 
 
 **git reset file1.txt** = aloows to info about the file we want to reset it
 
 **git reset .** = move the file from stagin area to working directory again to fix the code
 
 **git status** = finally we can varify the untrack file to modify it.
+
+
+**Git revert:**
+
+Git revert command allows to undo an existing commit but it is not deleting any commit rather git revert creates a new commit with included 
+files reverted to their previous state.
+
+**git revert <commit-id>** = allows to revert the content one step back of the code.
+
+
+**Git clone:**
+
+Git clone command is going to allow to make a copy of the repository from central repo to local repo.
+
+**git clone <github-url>** = to make a copy of any particular repo from git hub to our local repo
+
+
+
 
 
 
