@@ -14,9 +14,11 @@ In a centralized version control system, developers commit and update code to a 
 Code Accessibility: All developers can easily access and track the code since it is stored in a central repository.
 
 **Disadvantages**:
-Internet Dependency: An active internet connection is required for developers to access the code from the central repository. Without internet access, developers cannot retrieve or update the code.
+ Internet Dependency: An active internet connection is required for developers to access the code from the central repository. Without internet access, developers cannot retrieve 
+ or update the code.
 
-Lack of High Availability: Since the code is solely stored in a central repository, any issues or downtime with the central repository can prevent developers from accessing the code, leading to disruptions in the development process.
+ Lack of High Availability: Since the code is solely stored in a central repository, any issues or downtime with the central repository can prevent developers from accessing the 
+ code, leading to disruptions in the development process.
 
 Overall, while centralized version control systems offer ease of access and collaboration among developers, they are susceptible to internet dependency and potential disruptions due to central repository issues.
 
